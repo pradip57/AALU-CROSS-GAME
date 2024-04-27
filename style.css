@@ -131,7 +131,7 @@ h2::before{
 
 #rowline1{
 
-    border: 3px solid red;
+    
     width: 400px;
     position: absolute;
     top: 70px;
@@ -141,7 +141,7 @@ h2::before{
 
 #rowline2{
 
-    border: 3px solid red;
+  
     width: 400px;
     position: absolute;
     top: 220px;
@@ -151,7 +151,7 @@ h2::before{
 
 #rowline3{
 
-    border: 3px solid red;
+    
     width: 400px;
     position: absolute;
     top: 370px;
@@ -160,7 +160,7 @@ h2::before{
 }
 
 #columnline1{
-    border: 3px solid red;
+    
     height: 400px;
     position: absolute;
     z-index: 2;
@@ -170,7 +170,7 @@ h2::before{
 
 
 #columnline2{
-    border: 3px solid red;
+    
     height: 400px;
     position: absolute;
     z-index: 2;
@@ -180,7 +180,7 @@ h2::before{
 
 
 #columnline3{
-    border: 3px solid red;
+   
     height: 400px;
     position: absolute;
     z-index: 2;
@@ -190,7 +190,7 @@ h2::before{
 
 #diagonalline1{
 
-    border: 3px solid red;
+  
     height: 550px;
     position: absolute;
     z-index: 2;
@@ -202,7 +202,7 @@ h2::before{
 
 #diagonalline2{
 
-    border: 3px solid red;
+    
     height: 550px;
     position: absolute;
     z-index: 2;
