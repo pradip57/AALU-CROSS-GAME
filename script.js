@@ -29,6 +29,8 @@ let gameL_8_O = 0;
 let gameL_9_X = 0;
 let gameL_9_O = 0;
 
+let gameAlready = 0;
+
 const aaluCrossMaker1 = () => {
   if (jhela1 == 0) {
     if (counter == 0) {
@@ -167,9 +169,11 @@ const aaluCrossMaker9 = () => {
 const aaluCrossMaker1_1 = () => {
   gameWC1_O = gameL_1_O + gameL_4_O + gameL_7_O;
   gameWC1_X = gameL_1_X + gameL_4_X + gameL_7_X;
-  if (gameWC1_O == 3) {
+  if (gameWC1_O == 3 && gameAlready == 0) {
+    gameAlready = 1;
     document.getElementById("columnline1").style.border = "3px solid red";
-  } else if (gameWC1_X == 3) {
+  } else if (gameWC1_X == 3 && gameAlready == 0) {
+    gameAlready = 1;
     document.getElementById("columnline1").style.border = "3px solid red";
   }
 };
@@ -177,9 +181,11 @@ const aaluCrossMaker1_1 = () => {
 const aaluCrossMaker1_2 = () => {
   gameWC2_O = gameL_2_O + gameL_5_O + gameL_8_O;
   gameWC2_X = gameL_2_X + gameL_5_X + gameL_8_X;
-  if (gameWC2_O == 3) {
+  if (gameWC2_O == 3 && gameAlready == 0) {
+    gameAlready = 1;
     document.getElementById("columnline2").style.border = "3px solid red";
-  } else if (gameWC2_X == 3) {
+  } else if (gameWC2_X == 3 && gameAlready == 0) {
+    gameAlready = 1;
     document.getElementById("columnline2").style.border = "3px solid red";
   }
 };
@@ -187,55 +193,67 @@ const aaluCrossMaker1_2 = () => {
 const aaluCrossMaker1_3 = () => {
   gameWC3_O = gameL_3_O + gameL_6_O + gameL_9_O;
   gameWC3_X = gameL_3_X + gameL_6_X + gameL_9_X;
-  if (gameWC3_O == 3) {
+  if (gameWC3_O == 3 && gameAlready == 0) {
+    gameAlready = 1;
     document.getElementById("columnline3").style.border = "3px solid red";
-  } else if (gameWC3_X == 3) {
+  } else if (gameWC3_X == 3 && gameAlready == 0) {
+    gameAlready = 1;
     document.getElementById("columnline3").style.border = "3px solid red";
   }
 };
 const aaluCrossMaker1_4 = () => {
   gameWR1_O = gameL_1_O + gameL_2_O + gameL_3_O;
   gameWR1_X = gameL_1_X + gameL_2_X + gameL_3_X;
-  if (gameWR1_O == 3) {
+  if (gameWR1_O == 3 && gameAlready == 0) {
+    gameAlready = 1;
     document.getElementById("rowline1").style.border = "3px solid red";
-  } else if (gameWR1_X == 3) {
+  } else if (gameWR1_X == 3 && gameAlready == 0) {
+    gameAlready = 1;
     document.getElementById("rowline1").style.border = "3px solid red";
   }
 };
 const aaluCrossMaker1_5 = () => {
   gameWR2_O = gameL_4_O + gameL_5_O + gameL_6_O;
   gameWR2_X = gameL_4_X + gameL_5_X + gameL_6_X;
-  if (gameWR2_O == 3) {
+  if (gameWR2_O == 3 && gameAlready == 0) {
+    gameAlready = 1;
     document.getElementById("rowline2").style.border = "3px solid red";
-  } else if (gameWR2_X == 3) {
+  } else if (gameWR2_X == 3 && gameAlready == 0) {
+    gameAlready = 1;
     document.getElementById("rowline2").style.border = "3px solid red";
   }
 };
 const aaluCrossMaker1_6 = () => {
   gameWR3_O = gameL_7_O + gameL_8_O + gameL_9_O;
   gameWR3_X = gameL_7_X + gameL_8_X + gameL_9_X;
-  if (gameWR3_O == 3) {
-    console.log("AALU WINS");
-  } else if (gameWR3_X == 3) {
-    console.log("CROSS wins");
+  if (gameWR3_O == 3 && gameAlready == 0) {
+    gameAlready = 1;
+    document.getElementById("rowline3").style.border = "3px solid red";
+  } else if (gameWR3_X == 3 && gameAlready == 0) {
+    gameAlready = 1;
+    document.getElementById("rowline3").style.border = "3px solid red";
   }
 };
 const aaluCrossMaker1_7 = () => {
   gameWD1_O = gameL_1_O + gameL_5_O + gameL_9_O;
   gameWD1_X = gameL_1_X + gameL_5_X + gameL_9_X;
-  if (gameWD1_O == 3) {
-    console.log("AALU WINS");
-  } else if (gameWD1_X == 3) {
-    console.log("CROSS wins");
+  if (gameWD1_O == 3 && gameAlready == 0) {
+    gameAlready = 1;
+    document.getElementById("diagonalline1").style.border = "3px solid red";
+  } else if (gameWD1_X == 3 && gameAlready == 0) {
+    gameAlready = 1;
+    document.getElementById("diagonalline1").style.border = "3px solid red";
   }
 };
 const aaluCrossMaker1_8 = () => {
   gameWD2_O = gameL_3_O + gameL_5_O + gameL_7_O;
   gameWD2_X = gameL_3_X + gameL_5_X + gameL_7_X;
-  if (gameWD2_O == 3) {
-    console.log("AALU WINS");
-  } else if (gameWD2_X == 3) {
-    console.log("CROSS wins");
+  if (gameWD2_O == 3 && gameAlready == 0) {
+    gameAlready = 1;
+    document.getElementById("diagonalline2").style.border = "3px solid red";
+  } else if (gameWD2_X == 3 && gameAlready == 0) {
+    gameAlready = 1;
+    document.getElementById("diagonalline2").style.border = "3px solid red";
   }
 };
 
