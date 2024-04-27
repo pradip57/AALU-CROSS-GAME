@@ -132,17 +132,82 @@ h2::before{
 #rowline1{
 
     border: 3px solid red;
-    width: 450px;
+    width: 400px;
     position: absolute;
     top: 70px;
+    left: 25px;
     z-index: 2;
 }
 
 #rowline2{
 
     border: 3px solid red;
-    width: 450px;
+    width: 400px;
     position: absolute;
     top: 220px;
     z-index: 2;
+    left: 25px;
+}
+
+#rowline3{
+
+    border: 3px solid red;
+    width: 400px;
+    position: absolute;
+    top: 370px;
+    z-index: 2;
+    left: 25px;
+}
+
+#columnline1{
+    border: 3px solid red;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+    left: 72px;
+    top: 25px;
+}
+
+
+#columnline2{
+    border: 3px solid red;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+    left: 222px;
+    top: 25px;
+}
+
+
+#columnline3{
+    border: 3px solid red;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+    left: 372px;
+    top: 25px;
+}
+
+#diagonalline1{
+
+    border: 3px solid red;
+    height: 550px;
+    position: absolute;
+    z-index: 2;
+    left: 222px;
+    top: -50px;
+    rotate: -45deg;
+
+}
+
+#diagonalline2{
+
+    border: 3px solid red;
+    height: 550px;
+    position: absolute;
+    z-index: 2;
+    left: 222px;
+    top: -50px;
+    rotate: 45deg;
+
 }
