@@ -34,11 +34,11 @@ const aaluCrossMaker1 = () => {
     if (counter == 0) {
       document.querySelector(".btn1").innerHTML = "O";
       counter = 1;
-      gameL_1_X += 1;
+      gameL_1_O += 1;
     } else {
       document.querySelector(".btn1").innerHTML = "X";
       counter = 0;
-      gameL_1_O += 1;
+      gameL_1_X += 1;
     }
   }
   jhela1 = 1;
@@ -164,20 +164,40 @@ const aaluCrossMaker9 = () => {
   jhela9 = 1;
 };
 
-let gameWC1_O = gameL_1_O + gameL_4_O + gameL_7_O;
-let gameWC1_X = gameL_1_X + gameL_4_X + gameL_7_X;
-let gameWC2_O = gameL_2_O + gameL_5_O + gameL_8_O;
-let gameWC2_X = gameL_2_X + gameL_5_X + gameL_8_X;
-let gameWC3_O = gameL_3_O + gameL_6_O + gameL_9_O;
-let gameWC3_X = gameL_3_X + gameL_6_X + gameL_9_X;
-let gameWR1_O = gameL_1_O + gameL_2_O + gameL_3_O;
-let gameWR1_X = gameL_1_X + gameL_2_X + gameL_3_X;
-let gameWR2_O = gameL_4_O + gameL_5_O + gameL_6_O;
-let gameWR2_X = gameL_4_X + gameL_5_X + gameL_6_X;
-let gameWR3_O = gameL_7_O + gameL_8_O + gameL_9_O;
-let gameWR3_X = gameL_7_X + gameL_8_X + gameL_9_X;
-let gameWD1_O = gameL_1_O + gameL_5_O + gameL_9_O;
-let gameWD1_X = gameL_1_X + gameL_5_X + gameL_9_X;
-let gameWD2_O = gameL_3_O + gameL_5_O + gameL_7_O;
-let gameWD2_X = gameL_3_X + gameL_5_X + gameL_7_X;
+const aaluCrossMaker1_1 = () => {
+  let gameWC1_O = gameL_1_O + gameL_4_O + gameL_7_O;
+  let gameWC1_X = gameL_1_X + gameL_4_X + gameL_7_X;
+};
+const aaluCrossMaker1_2 = () => {
+  let gameWC2_O = gameL_2_O + gameL_5_O + gameL_8_O;
+  let gameWC2_X = gameL_2_X + gameL_5_X + gameL_8_X;
+};
+
+const aaluCrossMaker1_3 = () => {
+  let gameWC3_O = gameL_3_O + gameL_6_O + gameL_9_O;
+  let gameWC3_X = gameL_3_X + gameL_6_X + gameL_9_X;
+};
+const aaluCrossMaker1_4 = () => {
+  let gameWR1_O = gameL_1_O + gameL_2_O + gameL_3_O;
+  let gameWR1_X = gameL_1_X + gameL_2_X + gameL_3_X;
+};
+const aaluCrossMaker1_5 = () => {
+  let gameWR2_O = gameL_4_O + gameL_5_O + gameL_6_O;
+  let gameWR2_X = gameL_4_X + gameL_5_X + gameL_6_X;
+};
+const aaluCrossMaker1_6 = () => {
+  let gameWR3_O = gameL_7_O + gameL_8_O + gameL_9_O;
+  let gameWR3_X = gameL_7_X + gameL_8_X + gameL_9_X;
+};
+const aaluCrossMaker1_7 = () => {
+  let gameWD1_O = gameL_1_O + gameL_5_O + gameL_9_O;
+  let gameWD1_X = gameL_1_X + gameL_5_X + gameL_9_X;
+};
+const aaluCrossMaker1_8 = () => {
+  let gameWD2_O = gameL_3_O + gameL_5_O + gameL_7_O;
+  let gameWD2_X = gameL_3_X + gameL_5_X + gameL_7_X;
+};
+
+
+
 
