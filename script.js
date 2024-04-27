@@ -165,39 +165,87 @@ const aaluCrossMaker9 = () => {
 };
 
 const aaluCrossMaker1_1 = () => {
-  let gameWC1_O = gameL_1_O + gameL_4_O + gameL_7_O;
-  let gameWC1_X = gameL_1_X + gameL_4_X + gameL_7_X;
+  gameWC1_O = gameL_1_O + gameL_4_O + gameL_7_O;
+  gameWC1_X = gameL_1_X + gameL_4_X + gameL_7_X;
+  if (gameWC1_O == 3) {
+    console.log("AALU WINS");
+  } else if (gameWC1_X == 3) {
+    console.log("CROSS wins");
+  }
 };
+
 const aaluCrossMaker1_2 = () => {
-  let gameWC2_O = gameL_2_O + gameL_5_O + gameL_8_O;
-  let gameWC2_X = gameL_2_X + gameL_5_X + gameL_8_X;
+  gameWC2_O = gameL_2_O + gameL_5_O + gameL_8_O;
+  gameWC2_X = gameL_2_X + gameL_5_X + gameL_8_X;
+  if (gameWC2_O == 3) {
+    console.log("AALU WINS");
+  } else if (gameWC2_X == 3) {
+    console.log("CROSS wins");
+  }
 };
 
 const aaluCrossMaker1_3 = () => {
-  let gameWC3_O = gameL_3_O + gameL_6_O + gameL_9_O;
-  let gameWC3_X = gameL_3_X + gameL_6_X + gameL_9_X;
+  gameWC3_O = gameL_3_O + gameL_6_O + gameL_9_O;
+  gameWC3_X = gameL_3_X + gameL_6_X + gameL_9_X;
+  if (gameWC3_O == 3) {
+    console.log("AALU WINS");
+  } else if (gameWC3_X == 3) {
+    console.log("CROSS wins");
+  }
 };
 const aaluCrossMaker1_4 = () => {
-  let gameWR1_O = gameL_1_O + gameL_2_O + gameL_3_O;
-  let gameWR1_X = gameL_1_X + gameL_2_X + gameL_3_X;
+  gameWR1_O = gameL_1_O + gameL_2_O + gameL_3_O;
+  gameWR1_X = gameL_1_X + gameL_2_X + gameL_3_X;
+  if (gameWR1_O == 3) {
+    console.log("AALU WINS");
+  } else if (gameWR1_X == 3) {
+    console.log("CROSS wins");
+  }
 };
 const aaluCrossMaker1_5 = () => {
-  let gameWR2_O = gameL_4_O + gameL_5_O + gameL_6_O;
-  let gameWR2_X = gameL_4_X + gameL_5_X + gameL_6_X;
+  gameWR2_O = gameL_4_O + gameL_5_O + gameL_6_O;
+  gameWR2_X = gameL_4_X + gameL_5_X + gameL_6_X;
+  if (gameWR2_O == 3) {
+    console.log("AALU WINS");
+  } else if (gameWR2_X == 3) {
+    console.log("CROSS wins");
+  }
 };
 const aaluCrossMaker1_6 = () => {
-  let gameWR3_O = gameL_7_O + gameL_8_O + gameL_9_O;
-  let gameWR3_X = gameL_7_X + gameL_8_X + gameL_9_X;
+  gameWR3_O = gameL_7_O + gameL_8_O + gameL_9_O;
+  gameWR3_X = gameL_7_X + gameL_8_X + gameL_9_X;
+  if (gameWR3_O == 3) {
+    console.log("AALU WINS");
+  } else if (gameWR3_X == 3) {
+    console.log("CROSS wins");
+  }
 };
 const aaluCrossMaker1_7 = () => {
-  let gameWD1_O = gameL_1_O + gameL_5_O + gameL_9_O;
-  let gameWD1_X = gameL_1_X + gameL_5_X + gameL_9_X;
+  gameWD1_O = gameL_1_O + gameL_5_O + gameL_9_O;
+  gameWD1_X = gameL_1_X + gameL_5_X + gameL_9_X;
+  if (gameWD1_O == 3) {
+    console.log("AALU WINS");
+  } else if (gameWD1_X == 3) {
+    console.log("CROSS wins");
+  }
 };
 const aaluCrossMaker1_8 = () => {
-  let gameWD2_O = gameL_3_O + gameL_5_O + gameL_7_O;
-  let gameWD2_X = gameL_3_X + gameL_5_X + gameL_7_X;
+  gameWD2_O = gameL_3_O + gameL_5_O + gameL_7_O;
+  gameWD2_X = gameL_3_X + gameL_5_X + gameL_7_X;
+  if (gameWD2_O == 3) {
+    console.log("AALU WINS");
+  } else if (gameWD2_X == 3) {
+    console.log("CROSS wins");
+  }
 };
 
-
-
-
+function hello() {
+  aaluCrossMaker1_1();
+  aaluCrossMaker1_2();
+  aaluCrossMaker1_3();
+  aaluCrossMaker1_4();
+  aaluCrossMaker1_5();
+  aaluCrossMaker1_6();
+  aaluCrossMaker1_7();
+  aaluCrossMaker1_8();
+}

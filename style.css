@@ -129,3 +129,20 @@ h2::before{
     left: 300px;
 }
 
+#rowline1{
+
+    border: 3px solid red;
+    width: 450px;
+    position: absolute;
+    top: 70px;
+    z-index: 2;
+}
+
+#rowline2{
+
+    border: 3px solid red;
+    width: 450px;
+    position: absolute;
+    top: 220px;
+    z-index: 2;
+}
