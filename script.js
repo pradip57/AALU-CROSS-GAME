@@ -1,6 +1,6 @@
 let counter = 0;
-let jhela1 = 0;
 
+let jhela1 = 0;
 let jhela2 = 0;
 let jhela3 = 0;
 let jhela4 = 0;
