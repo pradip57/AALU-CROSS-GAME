@@ -267,3 +267,8 @@ function hello() {
   aaluCrossMaker1_7();
   aaluCrossMaker1_8();
 }
+
+
+function restartPage() {
+  window.location.reload(); 
+}
