@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 h2{
-    display: inline;
-    position: absolute;
-    top:50px;
+    /* display: inline; */
+    position: relative;
+    /* top:50px; */
     font-size: 50px;
 }
 
@@ -42,7 +42,8 @@ h2::before{
     width: 100vw;
     background-color: antiquewhite;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -65,6 +66,7 @@ h2::before{
 }
 
 .btn1{
+    position: absolute;
     border-left: none;
     border-top: none;
 }
@@ -213,14 +215,38 @@ h2::before{
 }
 
 #restart{
-
+    
     height: 40px;
     width: 80px;
     border-radius: 20px;
     background-color: greenyellow;
     color: rgb(100, 95, 95);
     font-weight: bold;
-    position: absolute;
+    /* position: absolute; */
     top: 650px;
     left: 730px;
+}
+
+@media only screen and (max-width: 892px) {
+
+    h2{
+        
+        font-size: 30px;
+    }
+
+
+ 
+    
+
+    
+}
+
+@media only screen and (max-width: 535px) {
+
+    h2{
+        
+        font-size: 20px;
+    }
+
+    
 }
